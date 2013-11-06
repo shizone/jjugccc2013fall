@@ -1,0 +1,52 @@
+.black {
+    color: #000000;
+    text-shadow: 1px 1px 5px #ffffff;
+}
+
+.white {
+    color: #ffffff;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+.red {
+    color: #ff4040;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+.weak {
+    color: #c0c0c0;
+}
+
+.center {
+    text-align: center;
+}
+
+body {
+    color: #000000;
+    text-shadow: 1px 1px 5px #ffffff;
+    font-family: "ゆたぽん（コーディング）",sans-serif;
+    background-image: url("/img/logo.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  /* またはabsolute; */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1024px){
+  img.bg {
+  left: 50%;
+  margin-left: -640px; }
+}
