@@ -50,3 +50,7 @@ img.bg {
   left: 50%;
   margin-left: -640px; }
 }
+
+pre{
+  font-size: 11px;
+}
