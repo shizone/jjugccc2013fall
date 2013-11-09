@@ -29,7 +29,7 @@
 
 * https://github.com/n8han/conscript
 * GitHub上にあるScalaアプリを自動で取得してbuild/publishしてくれるツール
-* cs shizone/tengu
+* $ cs shizone/tengu
 * それ用の設定を追記する
 
 !SLIDE
@@ -73,6 +73,7 @@
 
 <!--
 Twitter4SはTwitter4JのWrapper
+こいつも使うにはdependenciesに加えろパターンなので、それで対応
 -->
 
 !SLIDE
@@ -87,6 +88,10 @@ Twitter4SはTwitter4JのWrapper
     * #ccc_r26 で握手
 
 !SLIDE
+
+<!--
+ハッシュタグ憑けて投下したい的なアレですね
+-->
 
 # <div class="red">関連URLの投下機能</div>
 
